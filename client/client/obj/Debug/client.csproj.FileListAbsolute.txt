@@ -6,3 +6,12 @@ c:\users\me\documents\visual studio 2012\Projects\client\client\obj\Debug\client
 c:\users\me\documents\visual studio 2012\Projects\client\client\obj\Debug\client.csproj.GenerateResource.Cache
 c:\users\me\documents\visual studio 2012\Projects\client\client\obj\Debug\client.exe
 c:\users\me\documents\visual studio 2012\Projects\client\client\obj\Debug\client.pdb
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\bin\Debug\client.exe.config
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\obj\Debug\client.exe
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\obj\Debug\client.pdb
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\bin\Debug\client.exe
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\bin\Debug\client.pdb
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\obj\Debug\client.login.resources
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\Vaio\Desktop\hms\HotelManagementSystem\client\client\obj\Debug\client.csproj.GenerateResource.Cache

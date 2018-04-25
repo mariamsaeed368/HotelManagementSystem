@@ -19,22 +19,17 @@ namespace client
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            if (comboBox1.Text == "Employee" && textBox2.Text == "employee")
-            {
-                MessageBox.Show("Welcome to the system");
-            }
-            else if (comboBox1.Text == "Owner" && textBox2.Text == "owner")
-            {
-                MessageBox.Show("Welcome to system");
-            }
-            else if (comboBox1.Text == "Manager" && textBox2.Text == "manager")
+            localhost.Service1 server = new localhost.Service1();
+            bool valid;
+            bool validaccess;
+            server.isvalid(comboBox1.Text, textBox2.Text, out valid, out validaccess);
+            if(valid)
             {
                 MessageBox.Show("Welcome to system");
             }
             else
             {
-                MessageBox.Show("Please enter your respective password");
+                MessageBox.Show("Please enter your assigned password.");
             }
             comboBox1.Text= " ";
             textBox2.Text = " ";
