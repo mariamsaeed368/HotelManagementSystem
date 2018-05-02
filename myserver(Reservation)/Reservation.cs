@@ -8,7 +8,6 @@ namespace myserver
 {
     public class Reservation
     {
-         [DataContract]
         private string name;
         [DataMember]
         public string Name
@@ -79,7 +78,7 @@ namespace myserver
             get { return Tax; }
             set { Tax = value; }
         }
-        private string Total;`
+        private string Total;
         [DataMember]
         public string Total1
         {

@@ -49,6 +49,11 @@ namespace Reservation
             this.Hide();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         public Form1()
         {
             InitializeComponent();
