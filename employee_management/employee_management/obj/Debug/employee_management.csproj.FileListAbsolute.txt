@@ -1,0 +1,9 @@
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\bin\Debug\employee_management.exe.config
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\obj\Debug\employee_management.csprojResolveAssemblyReference.cache
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\obj\Debug\employee_management.Form1.resources
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\obj\Debug\employee_management.Properties.Resources.resources
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\obj\Debug\employee_management.csproj.GenerateResource.Cache
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\bin\Debug\employee_management.exe
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\bin\Debug\employee_management.pdb
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\obj\Debug\employee_management.exe
+c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\obj\Debug\employee_management.pdb
