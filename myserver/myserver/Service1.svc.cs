@@ -20,6 +20,14 @@ namespace myserver
         {
             guestdl.p.Add(g);
         }
+       public List<Employee> show()
+       {
+           return EmployeeDL.employee;
+       }
+       public void Add_employee(Employee p)
+       {
+           EmployeeDL.employee.Add(p);
+       }
         public bool isvalid(string user, string password)
         {
             user u = new user();

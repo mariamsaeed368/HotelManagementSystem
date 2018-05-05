@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -12,6 +13,11 @@ namespace myserver
     [ServiceContract]
     public interface IService1
     {
+        [OperationContract]
+        void Add_employee(Employee p);
+
+        [OperationContract]
+        List<Employee> show();
         [OperationContract]
         bool isvalid(string user, string password);
        [OperationContract]
