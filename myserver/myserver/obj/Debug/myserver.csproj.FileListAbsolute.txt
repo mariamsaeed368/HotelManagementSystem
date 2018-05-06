@@ -17,3 +17,22 @@ C:\Users\Vaio\Documents\Visual Studio 2015\Projects\myserver\myserver\bin\Micros
 C:\Users\Vaio\Documents\Visual Studio 2015\Projects\myserver\myserver\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Vaio\Documents\Visual Studio 2015\Projects\myserver\myserver\obj\Debug\myserver.dll
 C:\Users\Vaio\Documents\Visual Studio 2015\Projects\myserver\myserver\obj\Debug\myserver.pdb
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\obj\Debug\myserver.csprojResolveAssemblyReference.cache
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\obj\Debug\myserver.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\obj\Debug\myserver.pdb
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\ApplicationInsights.config
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\myserver.dll.config
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\myserver.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\myserver.pdb
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.Web.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.Web.xml
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\myserver\myserver\bin\Microsoft.ApplicationInsights.xml

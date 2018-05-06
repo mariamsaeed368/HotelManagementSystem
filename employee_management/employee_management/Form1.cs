@@ -23,12 +23,13 @@ namespace employee_management
 
         private void button1_Click(object sender, EventArgs e)
         {
-                employee t = new employee();
+                localhost.Service1 server = new localhost.Service1();
+                localhost.Employee t = new localhost.Employee();
                 t.Name = textBox1.Text;
                 t.Id1 = int.Parse(textBox2.Text);
                 t.Phone_no = textBox3.Text;
                 t.Department1 = textBox4.Text;
-                 employeedl.employee.Add(t);
+                server.Add_employee(t);
                 MessageBox.Show("Employee has been added.");
                 textBox1.Text = " ";
                 textBox2.Text = " ";
@@ -38,8 +39,9 @@ namespace employee_management
 
         private void button2_Click(object sender, EventArgs e)
         {
+            localhost.Service1 server = new localhost.Service1();
             BindingSource b = new BindingSource();
-            b.DataSource = employeedl.employee;
+            b.DataSource = server.show();
             dataGridView1.DataSource = b;
 
         }

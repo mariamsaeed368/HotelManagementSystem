@@ -7,3 +7,12 @@ c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee
 c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\bin\Debug\employee_management.pdb
 c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\obj\Debug\employee_management.exe
 c:\users\vaio\documents\visual studio 2015\Projects\employee_management\employee_management\obj\Debug\employee_management.pdb
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\bin\Debug\employee_management.exe.config
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\obj\Debug\employee_management.exe
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\obj\Debug\employee_management.pdb
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\bin\Debug\employee_management.exe
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\bin\Debug\employee_management.pdb
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\obj\Debug\employee_management.csprojResolveAssemblyReference.cache
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\obj\Debug\employee_management.Form1.resources
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\obj\Debug\employee_management.Properties.Resources.resources
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\employee_management\employee_management\obj\Debug\employee_management.csproj.GenerateResource.Cache

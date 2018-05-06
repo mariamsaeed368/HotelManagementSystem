@@ -24,3 +24,6 @@ C:\Users\Vaio\Desktop\WindowsFormsApplication9\WindowsFormsApplication9\obj\x86\
 C:\Users\Vaio\Desktop\WindowsFormsApplication9\WindowsFormsApplication9\obj\x86\Debug\WindowsFormsApplication9.Form2.resources
 C:\Users\Vaio\Desktop\WindowsFormsApplication9\WindowsFormsApplication9\obj\x86\Debug\WindowsFormsApplication9.Properties.Resources.resources
 C:\Users\Vaio\Desktop\WindowsFormsApplication9\WindowsFormsApplication9\obj\x86\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\WindowsFormsApplication9\WindowsFormsApplication9\bin\Debug\WindowsFormsApplication9.exe.config
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\WindowsFormsApplication9\WindowsFormsApplication9\obj\x86\Debug\WindowsFormsApplication9.exe
+C:\Users\ok\Desktop\sprint4\HotelManagementSystem\WindowsFormsApplication9\WindowsFormsApplication9\obj\x86\Debug\WindowsFormsApplication9.pdb
