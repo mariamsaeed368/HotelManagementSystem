@@ -1,0 +1,43 @@
+c:\users\vaio\documents\visual studio 2015\Projects\Final_Client\Final_Client\bin\Debug\Final_Client.exe.config
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\bin\Debug\Final_Client.exe
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\bin\Debug\Final_Client.pdb
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.csprojResolveAssemblyReference.cache
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.Add_Guest.resources
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.Guest_Details.resources
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.Login.resources
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.Properties.Resources.resources
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.Reservation.resources
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.Room_Details.resources
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.csproj.GenerateResource.Cache
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.exe
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.pdb
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.Employee_Details.resources
+C:\Users\Vaio\Documents\Visual Studio 2015\Projects\Final_Client\Final_Client\obj\Debug\Final_Client.Ownerlogedinview.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\bin\Debug\Final_Client.exe.config
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.exe
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.pdb
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\bin\Debug\Final_Client.exe
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\bin\Debug\Final_Client.pdb
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.csprojResolveAssemblyReference.cache
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.Add_Guest.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.Employee_Details.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.Guest_Details.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.Login.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.Ownerlogedinview.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.Properties.Resources.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.Reservation.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.Room_Details.resources
+C:\Users\ok\Desktop\New folder\Final_Client\Final_Client\obj\Debug\Final_Client.csproj.GenerateResource.Cache
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\bin\Debug\Final_Client.exe.config
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.exe
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.pdb
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.csprojResolveAssemblyReference.cache
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.Add_Guest.resources
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.Employee_Details.resources
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.Guest_Details.resources
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.Login.resources
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.Ownerlogedinview.resources
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.Properties.Resources.resources
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.Reservation.resources
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.Room_Details.resources
+C:\Users\Vaio\Desktop\Final_Client\Final_Client\obj\Debug\Final_Client.csproj.GenerateResource.Cache

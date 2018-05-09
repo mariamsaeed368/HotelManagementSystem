@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/myserver" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/myserver" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="login">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="login" nillable="true" type="tns:login" />
+  <xs:complexType name="tax1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Room_charges1" type="xs:double" />
+      <xs:element minOccurs="0" name="Service_charges1" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="tax1" nillable="true" type="tns:tax1" />
+  <xs:complexType name="reservation1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Checkin" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Checkout" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Isfree" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Net_total1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Number" type="xs:int" />
+      <xs:element minOccurs="0" name="Room_charges1" type="xs:double" />
+      <xs:element minOccurs="0" name="Service_charges1" type="xs:double" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tax1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Total1" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="reservation1" nillable="true" type="tns:reservation1" />
+  <xs:complexType name="room1">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Isfree" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Number" type="xs:int" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="room1" nillable="true" type="tns:room1" />
+  <xs:complexType name="ArrayOfroom1">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="room1" nillable="true" type="tns:room1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfroom1" nillable="true" type="tns:ArrayOfroom1" />
+  <xs:complexType name="Employee">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Department1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id1" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone_no" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Employee" nillable="true" type="tns:Employee" />
+  <xs:complexType name="ArrayOfEmployee">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Employee" nillable="true" type="tns:Employee" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEmployee" nillable="true" type="tns:ArrayOfEmployee" />
+  <xs:complexType name="ArrayOfguest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="guest" nillable="true" type="tns:guest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfguest" nillable="true" type="tns:ArrayOfguest" />
+  <xs:complexType name="guest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Checkin" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Checkout" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Cnic" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone_no" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rooms" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="guest" nillable="true" type="tns:guest" />
+  <xs:complexType name="CompositeType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BoolValue" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CompositeType" nillable="true" type="tns:CompositeType" />
+</xs:schema>

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace myserver
 {
     [DataContract]
+    
 
     public class guest
     {

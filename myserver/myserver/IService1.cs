@@ -14,6 +14,18 @@ namespace myserver
     public interface IService1
     {
         [OperationContract]
+        void add_user(login p);
+       [OperationContract]
+       double Getamount(tax1 p);
+        [OperationContract]
+        void add1(reservation1 p);
+       [OperationContract]
+       double findtax(double amount);
+        [OperationContract]
+        void Add_room(room1 p);
+        [OperationContract]
+        List<room1> show_room();
+        [OperationContract]
         void Add_employee(Employee p);
 
         [OperationContract]

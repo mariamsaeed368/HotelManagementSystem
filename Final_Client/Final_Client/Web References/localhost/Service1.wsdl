@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:6312/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:6312/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:6312/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/myserver" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_add_user_InputMessage">
+    <wsdl:part name="parameters" element="tns:add_user" />
+  </wsdl:message>
+  <wsdl:message name="IService1_add_user_OutputMessage">
+    <wsdl:part name="parameters" element="tns:add_userResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Getamount_InputMessage">
+    <wsdl:part name="parameters" element="tns:Getamount" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Getamount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetamountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_add1_InputMessage">
+    <wsdl:part name="parameters" element="tns:add1" />
+  </wsdl:message>
+  <wsdl:message name="IService1_add1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:add1Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_findtax_InputMessage">
+    <wsdl:part name="parameters" element="tns:findtax" />
+  </wsdl:message>
+  <wsdl:message name="IService1_findtax_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findtaxResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Add_room_InputMessage">
+    <wsdl:part name="parameters" element="tns:Add_room" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Add_room_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Add_roomResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_show_room_InputMessage">
+    <wsdl:part name="parameters" element="tns:show_room" />
+  </wsdl:message>
+  <wsdl:message name="IService1_show_room_OutputMessage">
+    <wsdl:part name="parameters" element="tns:show_roomResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Add_employee_InputMessage">
+    <wsdl:part name="parameters" element="tns:Add_employee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Add_employee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Add_employeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_show_InputMessage">
+    <wsdl:part name="parameters" element="tns:show" />
+  </wsdl:message>
+  <wsdl:message name="IService1_show_OutputMessage">
+    <wsdl:part name="parameters" element="tns:showResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_isvalid_InputMessage">
+    <wsdl:part name="parameters" element="tns:isvalid" />
+  </wsdl:message>
+  <wsdl:message name="IService1_isvalid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:isvalidResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_show_all_InputMessage">
+    <wsdl:part name="parameters" element="tns:show_all" />
+  </wsdl:message>
+  <wsdl:message name="IService1_show_all_OutputMessage">
+    <wsdl:part name="parameters" element="tns:show_allResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Add_guest_InputMessage">
+    <wsdl:part name="parameters" element="tns:Add_guest" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Add_guest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Add_guestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="add_user">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/add_user" message="tns:IService1_add_user_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/add_userResponse" message="tns:IService1_add_user_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Getamount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Getamount" message="tns:IService1_Getamount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetamountResponse" message="tns:IService1_Getamount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="add1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/add1" message="tns:IService1_add1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/add1Response" message="tns:IService1_add1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findtax">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/findtax" message="tns:IService1_findtax_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/findtaxResponse" message="tns:IService1_findtax_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Add_room">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Add_room" message="tns:IService1_Add_room_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Add_roomResponse" message="tns:IService1_Add_room_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="show_room">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/show_room" message="tns:IService1_show_room_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/show_roomResponse" message="tns:IService1_show_room_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Add_employee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Add_employee" message="tns:IService1_Add_employee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Add_employeeResponse" message="tns:IService1_Add_employee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="show">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/show" message="tns:IService1_show_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/showResponse" message="tns:IService1_show_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="isvalid">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/isvalid" message="tns:IService1_isvalid_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/isvalidResponse" message="tns:IService1_isvalid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="show_all">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/show_all" message="tns:IService1_show_all_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/show_allResponse" message="tns:IService1_show_all_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Add_guest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Add_guest" message="tns:IService1_Add_guest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Add_guestResponse" message="tns:IService1_Add_guest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add_user">
+      <soap:operation soapAction="http://tempuri.org/IService1/add_user" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getamount">
+      <soap:operation soapAction="http://tempuri.org/IService1/Getamount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="add1">
+      <soap:operation soapAction="http://tempuri.org/IService1/add1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findtax">
+      <soap:operation soapAction="http://tempuri.org/IService1/findtax" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Add_room">
+      <soap:operation soapAction="http://tempuri.org/IService1/Add_room" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="show_room">
+      <soap:operation soapAction="http://tempuri.org/IService1/show_room" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Add_employee">
+      <soap:operation soapAction="http://tempuri.org/IService1/Add_employee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="show">
+      <soap:operation soapAction="http://tempuri.org/IService1/show" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isvalid">
+      <soap:operation soapAction="http://tempuri.org/IService1/isvalid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="show_all">
+      <soap:operation soapAction="http://tempuri.org/IService1/show_all" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Add_guest">
+      <soap:operation soapAction="http://tempuri.org/IService1/Add_guest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:6312/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

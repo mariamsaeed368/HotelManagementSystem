@@ -12,6 +12,25 @@ namespace myserver
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
     public class Service1 : IService1
     {
+        public double findtax(double amount)
+        {
+            double mctax = 0.65;
+            double ftax = amount - (amount * mctax);
+            return ftax;
+        }
+        public double Getamount(tax1 p)
+        {
+            return p.Room_charges1 + p.Service_charges1;
+        }
+        public void add_user(login p)
+        {
+            logindl.login.Add(p);
+
+        }
+        public void add1(reservation1 p)
+        {
+            reservation1dl.resevations.Add(p);
+        }
         public List<guest> show_all()
         {
             return guestdl.p;
@@ -19,6 +38,14 @@ namespace myserver
        public void Add_guest(guest g)
         {
             guestdl.p.Add(g);
+        }
+        public List<room1> show_room()
+        {
+            return room1dl.room;
+        }
+        public void Add_room(room1 p)
+        {
+            room1dl.room.Add(p);
         }
        public List<Employee> show()
        {
@@ -30,7 +57,7 @@ namespace myserver
        }
         public bool isvalid(string user, string password)
         {
-            user u = new user();
+           user u = new user();
             if (u.User == "Employee" && u.Password == "employee")
             {
                 return true;
