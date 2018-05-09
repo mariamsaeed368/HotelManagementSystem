@@ -26,15 +26,13 @@ namespace Final_Client
             this.Hide();
         }
 
-
-
         private void button2_Click_1(object sender, EventArgs e)
         {
             localhost.Service1 server = new localhost.Service1();
             localhost.tax1 room = new localhost.tax1();
             room.Room_charges1 = double.Parse(textBox5.Text);
             room.Service_charges1 = double.Parse(textBox6.Text);
-            inet_total =  server.Getamount(room);//room.Room_charges1 + room.Service_charges1; 
+            inet_total = server.Getamount(room);//room.Room_charges1 + room.Service_charges1; 
             itax = server.findtax(inet_total); //inet_total - (inet_total * mctax);
             itotal = inet_total + itax;
 

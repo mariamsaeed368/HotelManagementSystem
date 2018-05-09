@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Final_Client
 {
-    public partial class Login : Form
+    public partial class Login1 : Form
     {
-        public Login()
+        public Login1()
         {
             InitializeComponent();
         }
@@ -20,10 +20,10 @@ namespace Final_Client
         private void button1_Click(object sender, EventArgs e)
         {
             localhost.Service1 server = new localhost.Service1();
-           bool valid;
-           bool validaccess;
-           server.isvalid(comboBox1.Text, textBox2.Text, out valid, out validaccess);
-           if (valid)
+            bool valid;
+            bool validaccess;
+            server.isvalid(comboBox1.Text, textBox2.Text, out valid, out validaccess);
+            if (valid)
             {
                 MessageBox.Show("Welcome to system");
             }
@@ -74,7 +74,5 @@ namespace Final_Client
             textBox2.Text = " ";
             textBox1.Text = " ";
         }
-
-       
     }
 }

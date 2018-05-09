@@ -39,7 +39,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(311, 256);
+            this.linkLabel2.Location = new System.Drawing.Point(119, 254);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(64, 13);
             this.linkLabel2.TabIndex = 18;
@@ -97,7 +97,6 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Guest_Details";
             this.Text = "Guest_Details";
-            this.Load += new System.EventHandler(this.Guest_Details_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

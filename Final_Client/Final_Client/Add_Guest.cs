@@ -51,9 +51,5 @@ namespace Final_Client
             b.Show();
             this.Hide();
         }
-
-
-
-        }
     }
-
+}

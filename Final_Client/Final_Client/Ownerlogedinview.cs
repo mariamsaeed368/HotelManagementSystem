@@ -30,10 +30,5 @@ namespace Final_Client
             p.Show();
             this.Hide();
         }
-
-        private void Ownerlogedinview_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

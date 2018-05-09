@@ -63,7 +63,6 @@
             this.Controls.Add(this.linkLabel1);
             this.Name = "Ownerlogedinview";
             this.Text = "Ownerlogedinview";
-            this.Load += new System.EventHandler(this.Ownerlogedinview_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

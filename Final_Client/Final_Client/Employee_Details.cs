@@ -41,17 +41,5 @@ namespace Final_Client
             b.DataSource = server.show();
             dataGridView1.DataSource = b;
         }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Ownerlogedinview p = new Ownerlogedinview();
-            p.Show();
-            this.Hide();
-        }
-
-        private void Employee_Details_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

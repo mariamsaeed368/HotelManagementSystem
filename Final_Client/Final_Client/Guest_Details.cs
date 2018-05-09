@@ -40,12 +40,6 @@ namespace Final_Client
             Add_Guest p = new Add_Guest();
             p.Show();
             this.Hide();
-
-        }
-
-        private void Guest_Details_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
